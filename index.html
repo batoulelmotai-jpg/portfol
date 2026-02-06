@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <mete charset="UTF-8">
+        <mete http-equiv="X-UA-Compatible"content="IE-edge">
+        <mete name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logoname.png" class="logo">
+                    <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Services</a></li>
+                     <li><a href="#">Portfolio</a></li>
+                     <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header text">
+                    <p>Computer Science Student</p>
+                    <h1>Hi,I'm <span>Batoul</span> ELMOTAI </h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+              <div class="row">
+                <div id="about-col-1">
+                    <img src="img/user.png">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a motivated and dedicated computer science student with a strong interest
+                        in web development and information technologies.  
+                        Throughout my academic and professional experiences, I have developed skills in
+                        HTML, CSS, JavaScript, as well as experience in IT support and user assistance.  
+                        I am eager to continue learning, improving my technical skills, and working on
+                        real-world projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Développement Web et Application</span><br>Front-End : HTML, CSS, JavaScript, Bootstrap <br>Back-End : PHP, Symfony</li>
+                            <li><span>Outils et Environnement</span><br>Support utilisateur : Assistance utilisateur, Support technique <br>Système : Microsoft Windows <br>Gestion de versions : Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Janvier 2024 </span><br>Assistante de Laboratoire Faculté des Sciences, Marrakech</li>
+                            <li><span>Août 2024</span><br>Assistante Informatique (CDD) EDICOM, Marrakech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025-2027</span><br>BTS Services Informatiques aux Organisations (SIO)</li>
+                            <li><span>2021-2024</span><br>Licence Sciences de la Matière Physique</li>
+                            <li><span>2020-2021</span><br>Baccalauréat Sciences Physiques</li>
+                        </ul>
+                    </div>
+                </div>
+
+              </div>  
+            </div>
+        </div>
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p></p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Web Design</h2>
+                        <p></p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container"> 
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                         
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>Batoulelmotai@gmail.com</p>
+                        <p>+33635409394</p>
+                        <a href="/img/CV_Batoul_Elmotai.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
+            
+            </div>
+        </div>
+        <script>
+          const tablinks = document.getElementsByClassName("tab-links");
+          const tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname) {
+            for (const tablink of tablinks) {
+             tablink.classList.remove("active-link");
+         }
+            for (const tabcontent of tabcontents) {
+             tabcontent.classList.remove("active-tab");
+         }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+        
+    </body>
+</html>
