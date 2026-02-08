@@ -70,28 +70,32 @@ nav ul li a:hover::after{
 /*------about--------*/
 #about{
     padding: 80px 10%;
-    display: flex;
+   /* display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 60px;*/
 }
 .row{
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 60px;
-      width: 50%; 
+      flex-wrap: wrap;
       
 }
 .about-col-1{
     flex:0 0 35%;
+    min-width: 280px;
 }
 .about-col-1 img{
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 6px;
     height: auto;
+    display: block;
 }
 .about-col-2{
     flex: 1;
+    min-width: 300px;
 }
 .sub-title{
     font-size: 50px;
