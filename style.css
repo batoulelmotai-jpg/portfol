@@ -197,13 +197,13 @@ nav ul li a:hover::after{
   opacity: 0;
 }
 
-.hero-title{
+/*.hero-title{
   font-size: clamp(38px, 4.5vw, 64px);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -1px;
   margin-bottom: 18px;
-}
+}*/
 
 
 .hero-kicker{
