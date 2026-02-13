@@ -340,7 +340,7 @@ padding: 50px 0;
 }
 .veille-card:hover{
   transform: translateY(-8px);
-  background: #fff;              
+  background: #914f00;              
   box-shadow: 0 18px 40px rgba(0,0,0,0.35);
 }
 
@@ -393,7 +393,7 @@ padding: 50px 0;
 }
 
 .veille-links a:hover{
-    color: #914f00;
+    color: #fff;
 }
 
 /*.veille-img{
