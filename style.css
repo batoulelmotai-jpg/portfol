@@ -327,7 +327,7 @@ padding: 50px 0;
 }
 .veille-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns:1fr ;
     gap: 24px;
     margin-top: 30px;
 }
@@ -336,6 +336,12 @@ padding: 50px 0;
     background: #262626;
     padding: 24px;
     border-radius: 12px;
+    transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+.veille-card:hover{
+  transform: translateY(-8px);
+  background: #914f00;              
+  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
 }
 
 .veille-card h3{
@@ -346,6 +352,9 @@ padding: 50px 0;
 .veille-card p{
     font-size: 14px;
     line-height: 1.6;
+}
+.veille-card:hover h3,.veille-card:hover p{
+  color: #fff;
 }
 
 .veille-meta{
@@ -421,9 +430,12 @@ padding: 50px 0;
   margin-right: 15px;
   font-size: 20px;
 }
-.contact-left p i{
-    color: #fff;
-    text-decoration: none;
+.contact-left a{
+  color: #fff;
+  text-decoration: none; 
+}
+.contact-left a:hover{
+  color: #914f00;
 }
 .contact-right form{
   width: 100%;
