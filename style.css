@@ -498,5 +498,15 @@ form input, form textarea{
   margin: 0;            
   line-height: 1.1;
 }
+.contact-link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-link:hover{
+  color: #914f00;
+  text-decoration: underline;
+}
+
 
 
