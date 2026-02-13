@@ -436,6 +436,12 @@ padding: 50px 0;
 }
 .contact-left a:hover{
   color: #914f00;
+  text-decoration: underline;
+}
+.contact-left a:link,
+.contact-left a:visited{
+  color: #fff;
+  text-decoration: none;
 }
 .contact-right form{
   width: 100%;
