@@ -294,7 +294,7 @@ body{
 
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
   margin-top: 50px;
 }
@@ -328,10 +328,10 @@ body{
   transform: translateY(-10px);
 }
 
-.projet-emoji {
+/*.projet-emoji {
   font-size: 32px;
   margin-bottom: 12px;
-}
+}*/
 
 .projet-techs {
   display: flex;
