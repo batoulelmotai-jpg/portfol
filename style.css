@@ -395,6 +395,40 @@ padding: 50px 0;
 .veille-links a:hover{
     color: #fff;
 }
+/* Tableau de veille */
+.veille-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.veille-table th,
+.veille-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.veille-table th {
+  color: #914f00;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.veille-table td {
+  color: #aaa;
+}
+
+/* Sous-titres des articles (h4) */
+.veille-card h4 {
+  color: #fff;
+  font-size: 0.95rem;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
 
 /*.veille-img{
     margin-top: 15px;
