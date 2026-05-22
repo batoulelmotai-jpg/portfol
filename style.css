@@ -339,9 +339,10 @@ padding: 50px 0;
     transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
 }
 .veille-card:hover{
-  transform: translateY(-8px);
-  background: #914f00;              
+  /*transform: translateY(-8px);
+  background: #914f00;*/              
   box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+  border-color: #914f00;
 }
 
 .veille-card h3{
@@ -424,7 +425,7 @@ padding: 50px 0;
 
 /* Sous-titres des articles (h4) */
 .veille-card h4 {
-  color: #fff;
+  color: #c9a84c;
   font-size: 0.95rem;
   margin-top: 16px;
   margin-bottom: 4px;
