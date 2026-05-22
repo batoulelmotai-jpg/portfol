@@ -341,11 +341,11 @@ body{
 }
 
 .projet-tech {
-  background: #1a1a1a;
-  border: 0.5px solid #ffffff44;
-  color: #aaa;
+  background: #252018;
+  border: 0.5px solid #c9a84c44;
+  color: #c9a84c;
   font-size: 11px;
-  padding: 3px 10px;
+  padding: 3px 12px;
   border-radius: 20px;
 }
 /*-------------------Portfolio------------*/
